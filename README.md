@@ -10,8 +10,8 @@ The workflow is simplified as follows:
 Requirements:
 --PyTorch
 
-File "pbsim_10k.fasta" contains 10000 uncorrected reads generated using a PacBio simulator on the E-coli genome \\
-File "create_train_tensors.py" processes the uncorrected reads to generate torch tensors for training \\
+File "pbsim_10k.fasta" contains 10000 uncorrected reads generated using a PacBio simulator on the E-coli genome  
+File "create_train_tensors.py" processes the uncorrected reads to generate torch tensors for training  
   Usage: python create_train_tensors.py --w --file
     where 'w' is the word length and 'file' contains the uncorrected reads in fasta format
   Example: python create_train_tensors.py --4 --pbsim_10k.fasta
