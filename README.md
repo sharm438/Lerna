@@ -25,4 +25,6 @@ File "create_test_tensors.py" processes the corrected reads to generate torch te
 File "test.py" evaluates the Language model on the test data  
   Usage: python test.py --data_file --targets_file  
   Example: python test.py --data_k27.pt --targets_k27.pt  
+All the intermediate files generated are uploaded at https://drive.google.com/drive/folders/1f7B-NMlE3FU0oiF8x5tHUZ-lcgtRyNF0?usp=sharing    
+  
   
