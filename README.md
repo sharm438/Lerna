@@ -22,9 +22,10 @@ We then run an Error correcting tool LoRDEC for multiple values of 'k' to genera
 File "create_test_tensors.py" processes the corrected reads to generate torch tensors for testing  
   Usage: python create_test_tensors.py --w  
   By default, it does this for k = 15, 17, 19, 21, 23, 25, 27, 31, 37, 45, 55, 67, 75, 81, 89, 97. This can be modified by editing the k_vals list in the code  
-File "test.py" evaluates the Language model on the test data  
-  Usage: python test.py --data_file --targets_file  
-  Example: python test.py --data_k27.pt --targets_k27.pt  
+File "test.py" evaluates the Language model on the test data by iterating over the test tensors of all the above mentioned 'k' values
+  Usage: python test.py  
+  Example: python test.py 
+  It generates the average loss value of testing, which is the translated to perplexity and used in Simulated annealing
 All the intermediate files generated are uploaded at https://drive.google.com/drive/folders/1f7B-NMlE3FU0oiF8x5tHUZ-lcgtRyNF0?usp=sharing    
   
   
