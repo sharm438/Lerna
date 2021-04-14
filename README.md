@@ -26,6 +26,8 @@ File "test.py" evaluates the Language model on the test data by iterating over t
   Usage: python test.py  
   Example: python test.py 
   It generates the average loss value of testing, which is the translated to perplexity and used in Simulated annealing
-All the intermediate files generated are uploaded at https://drive.google.com/drive/folders/1f7B-NMlE3FU0oiF8x5tHUZ-lcgtRyNF0?usp=sharing    
+All the intermediate files generated are uploaded at https://drive.google.com/drive/folders/1f7B-NMlE3FU0oiF8x5tHUZ-lcgtRyNF0?usp=sharing  
+File "simulated_annealining.py" select the value of k based on the corresponding perplexity. A dictionary is constructed containing key-value pairs: the key which is k and the value which is the perplexity.  
+Usage: python simulated_annealing.py Example: python simulated_annealing.py
   
   
